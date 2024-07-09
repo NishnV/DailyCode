@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-zinc-800;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+}
+
+.badge-danger {
+  background-color: #dc3545;
+}
+
+.badge-yellow {
+  background-color: #ffc107;
+}
+
+.badge-green {
+  background-color: #28a745;
+}
